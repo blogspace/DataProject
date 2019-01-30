@@ -1,49 +1,71 @@
 package demo1
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.ml.feature.{HashingTF, IDF, Tokenizer}
 import org.apache.spark.{SparkConf, SparkContext}
+
 
 /**
   * 文本情感分析系统
+  *
   * @author aloha
   */
 object SentimentAnalysis {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
-    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
+    Logger.getLogger("org.apache.jetty.server").setLevel(Level.OFF)
     /*
-      4	食品餐饮	越来越不好了，菜品也少了，服务也不及时。	0
-      5	食品餐饮	是在是不知道该吃什么好、就来了	1
-      6	食品餐饮	跟这家公司合作过一次，系统功能很强大，运行很流畅，很不错的。。	2
+      82019
+      物流快递
+      百世汇通很差，六天没送到，打电话两天前己到深圳，几分钟的路程今天又送了一天，明天不知能不能到。这就是百世汇通!明天不到货我准备要他们退回去算了。球服务!
+      0
      */
-    //1.读入数据
-    val conf = new SparkConf().setAppName("SentimentAnalysis").setMaster("local[1]")
+    val conf = new SparkConf().setAppName("SentimentAnalysis").setMaster("local")
     val sc = new SparkContext(conf)
-    val dataInput = sc.textFile("D:\\datatest\\user_emotion\\data_train.csv")
-    val data = dataInput.map(_.split(" ").toSeq)
+    //1.加载数据
+    val dataInput = sc.textFile("D:\\datatest\\user_emotion\\data_train.csv").map(
+      line =>{
+      val name = line.split("\t")(1)
+      //println(name)
+      val index = line.split("\t")(3)
+      //println(index)
+        name + "\t"+ index
+        //println("验证："+name + "\t"+ index)
+    }).filter(_.matches(\/d+\))
 
-    //2.文本分词
-    val tokenizer = new Tokenizer().setInputCol("line").setOutputCol("words")
-    val wordsData = tokenizer.transform()
-    val hashingTF = new HashingTF().setInputCol("words").setOutputCol("rawFeatures").setNumFeatures(20)
-    val featurizedData = hashingTF.transform(wordsData)
-
-    val idf = new IDF().setInputCol("rawFeatures").setOutputCol("features")
-    val idfModel = idf.fit(featurizedData)
-    val rescaledData = idfModel.transform(featurizedData)
-    rescaledData.select().take(3).foreach(println)
-
-    //3.情感词频统计
-
-    //4.模型训练
-
-    //5.模型评估
-
-    //6.对测试集进行测试
+    println("总条数："+dataInput.count())
+    dataInput.take(1).foreach(println)
+    for (n <- 0 to 2) {
+      val da = dataInput.filter(_.split("\t")(1).toInt == 2)
+      println(n + "分的条数为：" + da.count())
+    }
 
 
+    //2.统计数据基本信息
+    //val dataIndex = dataInput.map(x => (x,1)).reduceByKey(_ + _).foreach(println)
+    //3.生成训练数据集
+
+    //4.分词
+    //    val data = sc.textFile("D:\\datatest\\user_emotion\\data_train.csv").map(x => {
+    //      val list = tokens.anaylyzerWords(x)
+    //      list.toString.split("\t")
+    //    }).flatMap(x => x.toList).map(x => (x.trim(), 1)).reduceByKey(_ + _).top(20)(Ord.reverse).foreach(println)
+    //  }
+    //
+    //  //分词排序
+    //  object Ord extends Ordering[(String, Int)] {
+    //    def compare(a: (String, Int), b: (String, Int)) = a._2 compare (b._2)
+    //  }
+    //5.训练词频矩阵
+
+    //6.计算TF-IDF
+
+    //7.生成训练集和测试集
+
+    //8.模型训练
+    sc.stop()
   }
 
-
 }
+
+
+

@@ -10,6 +10,7 @@
     <modules>
         <module>sparkHive</module>
         <module>DataProject</module>
+        <module>SentimentAnalysis</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
@@ -42,5 +43,6 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
+
     </dependencies>
 </project>
