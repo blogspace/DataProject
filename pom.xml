@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sparkHive</module>
-        <module>DataProject</module>
         <module>SentimentAnalysis</module>
     </modules>
     <dependencies>
