@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lucene-analyzers-2.2.0 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SentimentAnalysis/src/main/scala/utils/lucene-analyzers-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -10,6 +10,7 @@
     <modules>
         <module>sparkHive</module>
         <module>SentimentAnalysis</module>
+        <module>algorithm</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
