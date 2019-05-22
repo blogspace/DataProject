@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sparkHive" />
         <module name="algorithm" />
-        <module name="spider" />
-        <module name="PurchaseForecast" />
         <module name="SentimentAnalysis" />
+        <module name="PurchaseForecast" />
+        <module name="spider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
