@@ -11,6 +11,7 @@
         <module>sparkHive</module>
         <module>SentimentAnalysis</module>
         <module>algorithm</module>
+        <module>spider</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->

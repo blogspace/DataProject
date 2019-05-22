@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algorithm" />
-        <module name="SentimentAnalysis" />
         <module name="sparkHive" />
+        <module name="algorithm" />
+        <module name="spider" />
+        <module name="SentimentAnalysis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
