@@ -1,4 +1,4 @@
-package com.purchaseforecast.service
+package com.demo.service
 
 trait IPurchaseForecastService {
 

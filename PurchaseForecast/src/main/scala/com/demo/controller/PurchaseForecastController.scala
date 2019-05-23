@@ -1,4 +1,4 @@
-package com.purchaseforecast.controller
+package com.demo.controller
 
 object PurchaseForecastController {
 

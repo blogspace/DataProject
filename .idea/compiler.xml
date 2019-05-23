@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sparkHive" />
         <module name="algorithm" />
-        <module name="SentimentAnalysis" />
         <module name="PurchaseForecast" />
+        <module name="SentimentAnalysis" />
+        <module name="sparkHive" />
         <module name="spider" />
       </profile>
     </annotationProcessing>
