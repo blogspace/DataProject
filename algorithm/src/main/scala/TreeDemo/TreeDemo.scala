@@ -51,9 +51,8 @@ object TreeDemo {
   
     //模型训练  
     val model = DecisionTree.trainClassifier(trainingData, numClasses, categoricalFeaturesInfo,  
-      impurity, maxDepth, maxBins)  
-  
-    //模型预测  
+      impurity, maxDepth, maxBins)
+    //模型预测
     val labelAndPreds = testData.map { point =>  
       val prediction = model.predict(point.features)  
       (point.label, prediction)  

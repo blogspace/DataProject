@@ -1,6 +1,7 @@
 package com.service
 
 import com.uils.ProjectUtil.rating
+import org.apache.spark.mllib.recommendation.Rating
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql
 

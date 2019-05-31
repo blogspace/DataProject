@@ -9,5 +9,5 @@ import org.apache.spark.{SparkConf, SparkContext}
 trait AppConf {
   val conf = new SparkConf().setAppName("recommendation").setMaster("local[*]")
   val sc = new SparkContext(conf)
-  sc.setLogLevel("error")
+ // sc.setLogLevel("error")
 }

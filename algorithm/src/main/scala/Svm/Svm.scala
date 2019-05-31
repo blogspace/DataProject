@@ -23,7 +23,6 @@ object Svm {
     //创建逻辑回归模型并训练
     val numIterations=100//迭代次数
     val model=SVMWithSGD.train(training,numIterations)
-    
     //对测试样本进行测试
     val predictionAndLabel=test.map(point=> {
       val score=model.predict(point.features)

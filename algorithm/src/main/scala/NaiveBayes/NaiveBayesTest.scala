@@ -33,8 +33,7 @@ object NaiveBayesTest {
      
       //贝叶斯建模并训练模型,第一个参数为数据，第二个参数为平滑参数，默认为1，可改变
       val model =NaiveBayes.train(training,lambda= 1.0)
-     
-      //对测试样本进行测试      
+      //对测试样本进行测试
       val predictionAndLabel= test.map(p => (model.predict(p.features),p.label))
       val print_predict=predictionAndLabel.take(20)            
       for (i<- 0 to print_predict.length - 1)

@@ -11,7 +11,7 @@ import utils.tokens
 
 /**
   * 文本情感分类
-  * @author aloha
+  * @author allen
   */
 object SentimentAnalysis {
   case class RawDataRecord(category: String, text:String )

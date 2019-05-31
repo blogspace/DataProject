@@ -23,7 +23,6 @@ object MyKmeans1 {
     val numClusters = 2
     val numIterations = 20
     val model = KMeans.train(parsedData, numClusters, numIterations)
-
     // 数据模型的中心点
     println("Cluster centres:")
     for(c <- model.clusterCenters) {
