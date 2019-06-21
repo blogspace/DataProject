@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>PurchaseForecast</artifactId>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/ml.dmlc/xgboost4j -->
+        <dependency>
+            <groupId>ml.dmlc</groupId>
+            <artifactId>xgboost4j</artifactId>
+            <version>0.90</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>me.lyh</groupId>-->
+            <!--<artifactId>xgboost4j</artifactId>-->
+            <!--<version>0.71-20180420-230cb9b7</version>-->
+        <!--</dependency>-->
 
 
+
+    </dependencies>
 </project>

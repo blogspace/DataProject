@@ -2,7 +2,7 @@ package com.demo.service
 
 import org.apache.spark.rdd.RDD
 
-trait IPurchaseForecastService {
+trait IChurnAnalysisService {
 
   def dataClean:RDD[String]
 

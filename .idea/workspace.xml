@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211aa449-c6cc-48b3-81d2-231fefcffc65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/src/main/scala/demo1/DouBanRecommender.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/main/scala/demo1/Demo.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/Kmeans/MyKmeans1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/scala/Kmeans/MyKmeans1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/IPurchaseForecastRepositor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/impl/PurchaseForecastRepositoryImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/AppConf.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/Constants.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/Constant.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/SparkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/SparkUtil.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/AppConf.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/AppConf.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ComputeUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ComputeUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/spider/mains/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider/src/main/java/com/spider/mains/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/analyzePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/downloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/SpiderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/target/classes/com/spider/mains/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spider/target/classes/com/spider/mains/DataTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spider/target/" />
@@ -31,6 +28,9 @@
     <ignored path="$PROJECT_DIR$/PurchaseForecast/target/" />
     <ignored path="$PROJECT_DIR$/Test/target/" />
     <ignored path="$PROJECT_DIR$/recommendation/target/" />
+    <ignored path="$PROJECT_DIR$/WebData/target/" />
+    <ignored path="$PROJECT_DIR$/webdata/javaWeb/target/" />
+    <ignored path="$PROJECT_DIR$/ChurnAnalysis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,106 +54,103 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataProject" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#29#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#21#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#26#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala">
+        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="e#29#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/classes/demo1/Demo.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/Kmeans/MyKmeans1.scala">
+        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="116">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala">
+        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="116">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala">
+        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/impl/ChurnAnalysisServiceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="58">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala">
+        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state relative-caret-position="261">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ComputeUtils.scala">
+        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#18#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/AppConf.scala">
+        <entry file="file://$PROJECT_DIR$/PurchaseForecast/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="638">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PurchaseForecast/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="435">
+                <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -179,6 +176,13 @@
       <find>-1</find>
       <find>212384</find>
       <find>26599083</find>
+      <find>Account length</find>
+      <find>assembler</find>
+      <find>ntrain</find>
+      <find>area under</find>
+      <find>iplanIndex</find>
+      <find>labelindexer</find>
+      <find>intlplan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,24 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/mains/DataTest.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/DataDownUtil.java" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/downloadPage.java" />
-        <option value="$PROJECT_DIR$/spider/pom.xml" />
-        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/analyzePage.java" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/purchaseforecast/service/IPurchaseForecastService.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/purchaseforecast/repository/impl/PurchaseRepositoryImpl.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/purchaseforecast/service/impl/PurchaseForecastServiceImpl.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/purchaseforecast/repository/IPurchaseRepository.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/IPurchaseRepository.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/IPurchaseForecastRepositor.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/SparkUtil.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/Constants.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/AppConf.scala" />
-        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/impl/PurchaseForecastRepositoryImpl.scala" />
-        <option value="$PROJECT_DIR$/Test/src/main/scala/demo1/Demo.scala" />
-        <option value="$PROJECT_DIR$/Test/pom.xml" />
-        <option value="$PROJECT_DIR$/Test/src/main/data/user_movies.csv" />
         <option value="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala" />
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/IDouBan.scala" />
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepository.scala" />
@@ -212,7 +198,6 @@
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl" />
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/repository/IDouBanRepository.scala" />
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/rating.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/data/user_movies.csv" />
         <option value="$PROJECT_DIR$/recommendation/pom.xml" />
         <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/Constants.scala" />
@@ -232,6 +217,31 @@
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala" />
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala" />
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/downloadPage.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/analyzePage.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/SpiderUtil.java" />
+        <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/mains/DataTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/Constant.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/AppUtil.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/SparkUtil.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/DriverUtil.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/impl/PurchaseForecastRepositoryImpl.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/Constant.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/pom.xml" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/README.md" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/PurchaseForecastDaoImpl.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/SparkUtil.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/Constant.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/data/churn-bigml-80.csv" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/README.md" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" />
       </list>
     </option>
   </component>
@@ -271,7 +281,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,60 +291,25 @@
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="FPGrowth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -343,149 +317,76 @@
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="ChurnAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="com.demo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="uils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559222011050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561120101215" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -493,12 +394,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala\com" />
-      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala\com\uils" />
-      <recent name="D:\workspace\idea\DataProject\recommendation\src\main" />
-      <recent name="D:\workspace\idea\DataProject\Test\src\main" />
-      <recent name="D:\workspace\idea\DataProject\PurchaseForecast\src\main\scala\com\purchaseforecast\service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uils" />
@@ -507,8 +404,12 @@
       <recent name="com.repository.impl" />
       <recent name="com.demo.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\DataProject\ChurnAnalysis" />
+      <recent name="D:\workspace\idea\DataProject\ChurnAnalysis\data" />
+      <recent name="D:\workspace\idea\DataProject\ChurnAnalysis\src\main\scala" />
+      <recent name="D:\workspace\idea\DataProject\PurchaseForecast" />
+      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -523,39 +424,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DouBanServiceImpl">
+  <component name="RunManager" selected="Application.ChurnAnalysis">
+    <configuration name="ChurnAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.controller.ChurnAnalysis" />
+      <module name="ChurnAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spider.mains.DataTest" />
       <module name="spider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spider.mains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="demo1.Demo" />
-      <module name="DataProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DouBanRepositoryImpl" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.repository.impl.DouBanRepositoryImpl" />
-      <module name="recommendation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.repository.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -589,13 +477,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PurchaseForecastDaoImpl" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.dao.impl.PurchaseForecastDaoImpl" />
+      <module name="PurchaseForecast" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javaWeb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChurnAnalysis" />
+        <item itemvalue="Application.PurchaseForecastDaoImpl" />
+        <item itemvalue="Application.DataTest" />
         <item itemvalue="Application.DouBanServiceImpl" />
         <item itemvalue="Application.DoubanRecommender" />
-        <item itemvalue="Application.DouBanRepositoryImpl" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.DataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -620,6 +528,14 @@
       <workItem from="1559179940806" duration="15555000" />
       <workItem from="1559265025567" duration="3402000" />
       <workItem from="1559302583056" duration="1376000" />
+      <workItem from="1559307661423" duration="1997000" />
+      <workItem from="1559549372622" duration="8506000" />
+      <workItem from="1560328765316" duration="220000" />
+      <workItem from="1560995002749" duration="254000" />
+      <workItem from="1561013608816" duration="1081000" />
+      <workItem from="1561019407947" duration="30423000" />
+      <workItem from="1561117998809" duration="119000" />
+      <workItem from="1561118539165" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="爬虫">
       <created>1558535675027</created>
@@ -642,29 +558,46 @@
       <option name="project" value="LOCAL" />
       <updated>1559134335925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="推荐系统">
+      <created>1559307718190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559307718190</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72539000" />
+    <option name="totallyTimeSpent" value="116384000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20654507" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.18079399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Project Explorer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info active="true" id="Favorites" order="7" sideWeight="0.5011111" side_tool="true" visible="true" weight="0.18079399" />
       <window_info id="Job Explorer" order="8" />
       <window_info id="Hadoop FileSystem" order="9" />
+      <window_info id="Web" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.53444445" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.36666667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -672,13 +605,14 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160944" side_tool="true" weight="0.53444445" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.8377778" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.25111112" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32991204" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3288889" />
       <window_info anchor="bottom" id="Console" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="Spring" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -702,332 +636,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="推荐系统" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebData/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/WebData/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/webdata/javaWeb/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/webdata/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/webdata/javaWeb/HELP.md" />
+    <entry file="file://$PROJECT_DIR$/webdata/javaWeb/javaWeb.iml" />
+    <entry file="file://$PROJECT_DIR$/webdata/javaWeb/src/main/java/com/example/demo/DemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#18#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/spider/mains/DataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/spider/utils/downloadPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="261">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/java/TestMap.java" />
-    <entry file="file://$PROJECT_DIR$/Test/src/main/scala/demo1/LogParse.scala" />
-    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/spider/utils/analyzePage.java">
+    <entry file="file://$PROJECT_DIR$/spider/src/main/java/com/spider/utils/SpiderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="1653">
+          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkHive/src/main/scala/demo/HiveTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_action.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_comment.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_product.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_shop.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_user.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/IPurchaseForecastRepositor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/repository/impl/PurchaseForecastRepositoryImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#34#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/AppConf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/SparkUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/data/model/metadata/part-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SentimentAnalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/impl/PurchaseForecastServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/Constants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/data/result.csv/part-00000">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="58">
-          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/data/user_movies.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/data/hot_movies.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="149">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl" />
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/rating.scala" />
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/controller/DouBanController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/data/hot_movies.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="142">
-          <caret line="139" column="18" lean-forward="true" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ProjectUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/src/main/scala/demo1/DouBanRecommender.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
-          <folding>
-            <element signature="e#15#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/IDouBanRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/data/user_movies.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="11677517">
-          <caret line="402673" column="19" selection-start-line="402673" selection-start-column="19" selection-end-line="402673" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/Constants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/SparkUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="174">
-            <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/DriverUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#18#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#29#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#21#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ComputeUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#18#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1039,48 +680,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/controller/DouBanController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#29#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/IDouBanRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ProjectUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#21#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#26#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/Kmeans/MyKmeans1.scala">
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/utils/AppConf.scala" />
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/DriverUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/SparkUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/AppUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/Constant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/impl/PurchaseForecastServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_user.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="460">
+          <caret line="968" column="52" selection-start-line="968" selection-start-column="52" selection-end-line="968" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#27#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_action.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="406">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala">
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_comment.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_product.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="290">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/data/jdata_shop.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/SparkUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/DriverUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/AppUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/Constant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/data/churn-bigml-80.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="377">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala">
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="87">
+            <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/data/churn-bigml-20.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/demo1/Demo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseForecast/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/impl/ChurnAnalysisServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="e#29#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,10 +1002,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>WebData:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1137,7 +1051,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Test</last-edited>
+          <last-edited>algorithm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

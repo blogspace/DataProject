@@ -1,6 +1,10 @@
-package com.demo.utils
+package com.demo.util
 
-object Constants {
+object Constant {
+  //sparkConf参数
+  val appName = "dwo_user_app_opt"
+  val master = "local[*]"
+  //数据源
   val inpath = "D:\\workspace\\idea\\DataProject\\PurchaseForecast\\src\\data"
   val action = s"${inpath}\\jdata_action.csv"
   val comment = s"$inpath{inpath}\\jdata_comment.csv"

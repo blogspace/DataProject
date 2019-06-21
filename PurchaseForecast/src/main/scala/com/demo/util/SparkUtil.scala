@@ -1,4 +1,4 @@
-package com.demo.utils
+package com.demo.util
 
 import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
@@ -10,19 +10,6 @@ import org.apache.spark.{SparkConf, SparkContext}
   * @@function spark通用工具类
   */
 object SparkUtil {
-  /**
-    * @function 创建SparkContext对象(添加日志过滤)
-    * @param name：appname
-    * @param master:local or cluster
-    * @return SparkContext对象sc
-    */
-  def createSparkContext(name:String)={
-    Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
-    Logger.getLogger("org.apache.jetty.server").setLevel(Level.OFF)
-    val conf = new SparkConf().setAppName(name).setMaster("local")
-    val sc = new SparkContext(conf)
-    sc
-  }
   /**
     * @function 获取现在的时间
     * @return 当前年月日

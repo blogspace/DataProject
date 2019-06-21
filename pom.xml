@@ -14,6 +14,7 @@
         <module>spider</module>
         <module>PurchaseForecast</module>
         <module>recommendation</module>
+        <module>ChurnAnalysis</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
