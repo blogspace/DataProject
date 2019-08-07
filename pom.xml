@@ -15,6 +15,7 @@
         <module>PurchaseForecast</module>
         <module>recommendation</module>
         <module>ChurnAnalysis</module>
+        <module>Utils</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->

@@ -10,11 +10,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Test/pom.xml" />
         <option value="$PROJECT_DIR$/webdata/javaWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/commonUtils/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/DataProject/pom.xml" />
+        <option value="$PROJECT_DIR$/Utils/pom.xml" />
         <option value="$PROJECT_DIR$/WebData/pom.xml" />
         <option value="$PROJECT_DIR$/webdata/pom.xml" />
       </set>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="algorithm" />
         <module name="ChurnAnalysis" />
+        <module name="commonUtils" />
         <module name="PurchaseForecast" />
         <module name="recommendation" />
         <module name="SentimentAnalysis" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="DataProject (1)" target="1.8" />
       <module name="javaWeb" target="1.8" />
+      <module name="Utils" target="1.5" />
       <module name="WebData" target="1.5" />
       <module name="webdata" target="1.5" />
     </bytecodeTargetLevel>

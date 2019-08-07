@@ -56,8 +56,8 @@ object ChurnAnalysis {
   ))
 
   def main(args: Array[String]) {
-//    Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
-//    Logger.getLogger("org.apache.jetty.server").setLevel(Level.OFF)
+    //    Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
+    //    Logger.getLogger("org.apache.jetty.server").setLevel(Level.OFF)
     val spark: SparkSession = SparkSession.builder().appName("churn").master("local[*]").getOrCreate()
     import spark.implicits._
     spark.sparkContext.setLogLevel("error")
