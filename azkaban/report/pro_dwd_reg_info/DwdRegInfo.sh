@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 4g --executor-memory 10g --driver-cores 2 --executor-cores 5 --class com.jianbing.controller.DwdRegInfoController hdfs://jianbing/jars/DwdRegInfo-jar-with-dependencies.jar

@@ -1,0 +1,12 @@
+nodes:
+  - name: DimUserFirstLoginInfo
+    type: command
+    config:
+      command: sh DimUserFirstLoginInfo.sh
+
+  - name: fileMerge
+    type: command
+    config:
+      command: sh fileMerge.sh
+    dependsOn:
+      - DimUserFirstLoginInfo

@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && hadoop fs -cat hdfs://jianbing/dwh/dw/dwd/log/trace/part* | hadoop fs -appendToFile - hdfs://jianbing/dwh/dw/dwd/log/trace/cat-end-logconsume-clean.$(date -d '-1 day' +'%Y-%m-%d')

@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --class com.jianbing.detail.LogDetail hdfs://jianbing/jars/LogDetail-jar-with-dependencies.jar hdfs://jianbing/dwh/ods/log/trace/cat-end-logconsume.log.$(date -d '-1 day' +'%Y-%m-%d') hdfs://jianbing/dwh/dw/dwd/log/trace

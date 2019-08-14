@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 4g --executor-memory 6g --class com.jianbing.controller.DwdBusinessAccessUserController hdfs://jianbing/jars/DwdBusinessAccessUser-jar-with-dependencies.jar

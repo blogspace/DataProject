@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 2g --executor-memory 4g --driver-cores 2 --executor-cores 5 --class com.jianbing.controller.HttpTest hdfs://jianbing/jars/HttpTest-jar-with-dependencies.jar webhdfs://jianbing/tmp/liuhao/dim_user_first_login_info

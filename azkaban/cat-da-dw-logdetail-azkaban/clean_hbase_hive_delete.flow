@@ -1,0 +1,33 @@
+nodes:
+  - name: clean_data
+    type: command
+    config:
+      command: sh clean_data.sh
+
+  - name: load_hbase1
+    type: command
+    config:
+      command: sh load_hbase1.sh
+    dependsOn:
+      - clean_data
+
+  - name: load_hbase2
+    type: command
+    config:
+      command: sh load_hbase2.sh
+    dependsOn:
+      - load_hbase1
+
+  - name: load_hive
+    type: command
+    config:
+      command: sh load_hive.sh
+    dependsOn:
+      - load_hbase2
+
+  - name: delete_path
+    type: command
+    config:
+      command: sh delete_path.sh
+    dependsOn:
+      - load_hive

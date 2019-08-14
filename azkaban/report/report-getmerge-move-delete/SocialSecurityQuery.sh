@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 4g --executor-memory 6g --class com.jianbing.main.SocialSecurityQuery hdfs://jianbing/jars/cat-lib-inside-report-shebaoquery-jar-with-dependencies.jar hdfs://jianbing/tmp/logs/liuhao/shebao

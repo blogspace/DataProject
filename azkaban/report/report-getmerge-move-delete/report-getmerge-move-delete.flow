@@ -1,0 +1,26 @@
+nodes:
+  - name: SocialSecurityQuery
+    type: command
+    config:
+      command: sh SocialSecurityQuery.sh
+
+  - name: getMerge
+    type: command
+    config:
+      command: sh getMerge.sh
+    dependsOn:
+      - SocialSecurityQuery
+
+  - name: moveFromLocal
+    type: command
+    config:
+      command: sh moveFromLocal.sh
+    dependsOn:
+      - getMerge
+
+  - name: deletePath
+    type: command
+    config:
+      command: sh deletePath.sh
+    dependsOn:
+      - moveFromLocal

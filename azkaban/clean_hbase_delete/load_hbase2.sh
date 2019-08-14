@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 3g --executor-memory 4g --driver-cores 2 --executor-cores 3 --class com.jianbing.main.HbaseExtrail hdfs://jianbing/jars/HbaseExtrail-jar-with-dependencies.jar

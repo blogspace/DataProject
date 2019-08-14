@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 3g --executor-memory 4g --driver-cores 2 --executor-cores 3 --class com.jianbing.mains.LogDetail hdfs://jianbing/jars/LogExtrail-jar-with-dependencies.jar webhdfs://jianbing/dwh/ods/log/trace/log/*.$(date -d '-1 day' +'%Y-%m-%d') webhdfs://jianbing/dwh/dw/dwd/log/trace

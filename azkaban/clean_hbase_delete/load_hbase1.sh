@@ -1,0 +1,2 @@
+#!/bin/sh
+source /etc/profile && spark-submit --master yarn --deploy-mode cluster --driver-memory 3g --executor-memory 5g --driver-cores 2 --executor-cores 3 --class com.jianbing.main.HbaseDetail hdfs://jianbing/jars/HbaseDetail-jar-with-dependencies.jar

@@ -1,0 +1,26 @@
+nodes:
+  - name: DwdRegInfo
+    type: command
+    config:
+      command: sh DwdRegInfo.sh
+
+  - name: getMerge
+    type: command
+    config:
+      command: sh getMerge.sh
+    dependsOn:
+      - DwdRegInfo
+
+  - name: moveFromLocal
+    type: command
+    config:
+      command: sh moveFromLocal.sh
+    dependsOn:
+      - getMerge
+
+  - name: deletePath
+    type: command
+    config:
+      command: sh deletePath.sh
+    dependsOn:
+      - moveFromLocal
