@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com</groupId>
-    <artifactId>SparkProject</artifactId>
+    <artifactId>DataProject</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -15,7 +15,7 @@
         <module>PurchaseForecast</module>
         <module>recommendation</module>
         <module>ChurnAnalysis</module>
-        <module>Utils</module>
+        <module>commonUtils</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
