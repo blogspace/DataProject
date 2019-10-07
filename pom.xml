@@ -16,6 +16,15 @@
         <module>recommendation</module>
         <module>ChurnAnalysis</module>
         <module>commonUtils</module>
+        <module>bin</module>
+        <module>lib</module>
+        <module>doc</module>
+        <module>tmp</module>
+        <module>utils</module>
+        <module>sbin</module>
+        <module>etc</module>
+        <module>logs</module>
+        <module>share</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->

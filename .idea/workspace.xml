@@ -2,17 +2,274 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211aa449-c6cc-48b3-81d2-231fefcffc65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/etc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/META-INF/ChurnAnalysis.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/controller/ChurnAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/controller/ChurnAnalysisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/dao/IChurnAnalysisDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/dao/impl/ChurnAnalysisDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/service/IChurnAnalysisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/service/impl/ChurnAnalysisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/util/AppUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/util/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/util/DriverUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/classes/com/demo/util/SparkUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/logs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbin/sbin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChurnAnalysis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PurchaseForecast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseForecast/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SentimentAnalysis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commonUtils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/ChurnAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/data/churn-bigml-20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/data/churn-bigml-20.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/data/churn-bigml-80.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/data/churn-bigml-80.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/impl/ChurnAnalysisServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/service/impl/ChurnAnalysisServiceImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/AppUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/util/AppUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/Constant.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/util/Constant.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/DriverUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/util/DriverUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/SparkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/util/SparkUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/data/jdata_action.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/data/jdata_action.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/data/jdata_comment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/data/jdata_comment.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/data/jdata_product.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/data/jdata_product.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/data/jdata_shop.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/data/jdata_shop.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/data/jdata_user.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/data/jdata_user.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/impl/PurchaseForecastServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/service/impl/PurchaseForecastServiceImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/AppUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/util/AppUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/Constant.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/util/Constant.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/DriverUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/util/DriverUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/util/SparkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-PurchaseForecast/src/main/scala/com/demo/util/SparkUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/controller/SentimentAnalysis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/utils/commons-logging.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/utils/commons-logging.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/utils/lucene-analyzers-2.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/utils/lucene-analyzers-2.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/utils/lucene-core-2.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/utils/lucene-core-2.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/utils/paoding-analysis.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/utils/paoding-analysis.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis/src/main/scala/utils/tokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/utils/tokens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/hot_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/hot_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/.part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/.part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/.part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/.part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/.part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/.part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/.part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/.part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/product/part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/product/part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/.part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/.part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/.part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/.part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/.part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/.part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/.part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/.part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/data/user/part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/data/user/part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/metadata/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/metadata/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/metadata/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/metadata/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/model/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/model/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/result.csv/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/result.csv/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/result.csv/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/result.csv/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/result.csv/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/result.csv/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/result.csv/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/result.csv/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/data/user_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/data/user_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/main/scala/demo1/DouBanRecommender.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-Test/src/main/scala/demo1/DouBanRecommender.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/FPGrowth/FPGrowth.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/Kmeans/MyKmeans1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Kmeans/MyKmeans1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Svm/Svm.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/TreeDemo/TreeDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/MaiDian/deletePath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/MaiDian/deletePath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/MaiDian/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/MaiDian/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/MaiDian/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/MaiDian/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/MaiDian/loadHive.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/MaiDian/loadHive.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/MaiDian/logClean-hive.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/MaiDian/logClean-hive.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/MaiDian/logClean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/MaiDian/logClean.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/bin/Demo.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/bin/Demo.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/bin/Demo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/bin/Demo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/bin/dataMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/bin/dataMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/bin/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/bin/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/bin/load_hive.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/bin/load_hive.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/clean_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/clean_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/clean_hbase_hive_delete.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/clean_hbase_hive_delete.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/delete_path.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/delete_path.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/flow20.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/flow20.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/load_hbase1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/load_hbase1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/load_hbase2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/load_hbase2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/load_hive.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail-azkaban/load_hive.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/clean_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/clean_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/clean_hbase_hive_delete.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/clean_hbase_hive_delete.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/delete_path.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/delete_path.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/flow20.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/flow20.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/load_hbase1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/load_hbase1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/load_hbase2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/load_hbase2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/load_hive.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/load_hive.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_delete/clean_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_delete/clean_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_delete/clean_hbase_delete.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_delete/clean_hbase_delete.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_delete/delete_path.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_delete/delete_path.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_delete/flow20.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_delete/flow20.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_delete/load_hbase1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_delete/load_hbase1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_delete/load_hbase2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_delete/load_hbase2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/clean_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/clean_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/clean_hbase_hive_delete.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/clean_hbase_hive_delete.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/delete_path.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/delete_path.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/flow20.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/flow20.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/load_hbase1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/load_hbase1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/load_hbase2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/load_hbase2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hbase_hive_delete/load_hive.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hbase_hive_delete/load_hive.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hive_delete/clean_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hive_delete/clean_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hive_delete/clean_hive_delete.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hive_delete/clean_hive_delete.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hive_delete/delete_path.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hive_delete/delete_path.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hive_delete/flow20.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hive_delete/flow20.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/clean_hive_delete/load_hive.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/clean_hive_delete/load_hive.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/demo/demo.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/demo/demo.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/demo/demo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/demo/demo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dim_order_opt/DimOrderOpt.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dim_order_opt/DimOrderOpt.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dim_order_opt/DimOrderOpt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dim_order_opt/DimOrderOpt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dim_user_app_opt/DimUserAppOpt.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dim_user_app_opt/DimUserAppOpt.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dim_user_app_opt/DimUserAppOpt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dim_user_app_opt/DimUserAppOpt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dim_user_first_login_info/DimUserFirstLoginInfo.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dim_user_first_login_info/DimUserFirstLoginInfo.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dim_user_first_login_info/DimUserFirstLoginInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dim_user_first_login_info/DimUserFirstLoginInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dwc_order_user_base_info/DwcOrderUserBaseInfo.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dwc_order_user_base_info/DwcOrderUserBaseInfo.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dwc_order_user_base_info/DwcOrderUserBaseInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dwc_order_user_base_info/DwcOrderUserBaseInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dwo_user_base_info/DwoUserBaseInfo.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dwo_user_base_info/DwoUserBaseInfo.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/azkaban/dwo_user_base_info/DwoUserBaseInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/azkaban/dwo_user_base_info/DwoUserBaseInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/logClean/logTest.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/logClean/logTest.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/logClean/logTest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/logClean/logTest.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/report/logTest.job" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/report/logTest.job" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/example/report/logTest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/example/report/logTest.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/hf-demo-liuhao-azkaban.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/hf-demo-liuhao-azkaban.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dataMerge/DataMerge.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dataMerge/DataMerge.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dataMerge/DataMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dataMerge/DataMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dataMerge/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dataMerge/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dataMerge/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dataMerge/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_order_opt/DimOrderOpt.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_order_opt/DimOrderOpt.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_order_opt/DimOrderOpt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_order_opt/DimOrderOpt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_order_opt/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_order_opt/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_order_opt/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_order_opt/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_app_opt/DimUserAppOpt.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_app_opt/DimUserAppOpt.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_app_opt/DimUserAppOpt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_app_opt/DimUserAppOpt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_app_opt/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_app_opt/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_app_opt/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_app_opt/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_first_login_info/DimUserFirstLoginInfo.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_first_login_info/DimUserFirstLoginInfo.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_first_login_info/DimUserFirstLoginInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_first_login_info/DimUserFirstLoginInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_first_login_info/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_first_login_info/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dim_user_first_login_info/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dim_user_first_login_info/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwc_order_user_base_info/DwcOrderUserBaseInfo.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwc_order_user_base_info/DwcOrderUserBaseInfo.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwc_order_user_base_info/DwcOrderUserBaseInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwc_order_user_base_info/DwcOrderUserBaseInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwc_order_user_base_info/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwc_order_user_base_info/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwc_order_user_base_info/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwc_order_user_base_info/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwo_user_base_info/DwoUserBaseInfo.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwo_user_base_info/DwoUserBaseInfo.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwo_user_base_info/DwoUserBaseInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwo_user_base_info/DwoUserBaseInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwo_user_base_info/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwo_user_base_info/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/dwo_user_base_info/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/dwo_user_base_info/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_business_access_user/DwdBusinessAccessUser.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_business_access_user/DwdBusinessAccessUser.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_business_access_user/deletePath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_business_access_user/deletePath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_business_access_user/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_business_access_user/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_business_access_user/getMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_business_access_user/getMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_business_access_user/moveFromLocal.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_business_access_user/moveFromLocal.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_business_access_user/pro_dwd_business_access_user.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_business_access_user/pro_dwd_business_access_user.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_reg_info/DwdRegInfo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_reg_info/DwdRegInfo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_reg_info/deletePath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_reg_info/deletePath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_reg_info/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_reg_info/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_reg_info/getMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_reg_info/getMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_reg_info/moveFromLocal.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_reg_info/moveFromLocal.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/pro_dwd_reg_info/pro_dwd_reg_info.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/pro_dwd_reg_info/pro_dwd_reg_info.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/report-getmerge-move-delete/SocialSecurityQuery.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/report-getmerge-move-delete/SocialSecurityQuery.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/report-getmerge-move-delete/deletePath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/report-getmerge-move-delete/deletePath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/report-getmerge-move-delete/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/report-getmerge-move-delete/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/report-getmerge-move-delete/getMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/report-getmerge-move-delete/getMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/report-getmerge-move-delete/moveFromLocal.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/report-getmerge-move-delete/moveFromLocal.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/report/report-getmerge-move-delete/report-getmerge-move-delete.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/report/report-getmerge-move-delete/report-getmerge-move-delete.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/test/deletePath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/test/deletePath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/test/fileMerge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/test/fileMerge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/test/flow.project" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/test/flow.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/test/logClean-hive.flow" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/test/logClean-hive.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azkaban/test/logClean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/azkaban/test/logClean.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/share/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/AppendContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/AppendContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/HBaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HBaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/HdfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HdfsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/IdNumberUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/IdNumberUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/KafkaComUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/KafkaComUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/WebHDFSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/WebHDFSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/main/ConsumeTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/main/ConsumeTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/main/FlinkTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/main/FlinkTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/main/ProducerTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/main/ProducerTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/Common.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/Common.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/Constants.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/Constants.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DBUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DBUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DataUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DataUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DriverFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DriverFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/HbaseUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/HbaseUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/HdfsUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/HdfsUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/JsonParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/JsonParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/KafkaCommonUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/KafkaCommonUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/MailsUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/MailsUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/SparkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/SparkUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/package.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkHive/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkHive/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/recommendation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/doc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/controller/DouBanController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/controller/DouBanController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/repository/IDouBanRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/repository/IDouBanRepository.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/service/IDouBanService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/AppConf.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/AppConf.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ComputeUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/ComputeUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/Constants.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/Constants.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/DriverUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/DriverUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ProjectUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/ProjectUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/SparkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/SparkUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/data/hot_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/data/hot_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/src/main/scala/data/user_movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/data/user_movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkHive/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-sparkHive/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkHive/src/main/resources/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-sparkHive/src/main/resources/hive-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkHive/src/main/scala/demo/HiveTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-sparkHive/src/main/scala/demo/HiveTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-spider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/spider/mains/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/mains/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/SpiderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/utils/SpiderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/target/classes/com/spider/mains/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-spider/target/classes/com/spider/mains/DataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/target/classes/com/spider/utils/DataDownUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib-spider/target/classes/com/spider/utils/DataDownUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spider/target/" />
@@ -28,6 +285,18 @@
     <ignored path="$PROJECT_DIR$/ChurnAnalysis/target/" />
     <ignored path="$PROJECT_DIR$/Utils/target/" />
     <ignored path="$PROJECT_DIR$/commonUtils/target/" />
+    <ignored path="$PROJECT_DIR$/doc/target/" />
+    <ignored path="$PROJECT_DIR$/lib/target/" />
+    <ignored path="$PROJECT_DIR$/bin/target/" />
+    <ignored path="$PROJECT_DIR$/tmp/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-algorithm/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-ChurnAnalysis/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-PurchaseForecast/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-recommendation/target/" />
+    <ignored path="$PROJECT_DIR$/sbin/target/" />
+    <ignored path="$PROJECT_DIR$/etc/target/" />
+    <ignored path="$PROJECT_DIR$/logs/target/" />
+    <ignored path="$PROJECT_DIR$/share/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,91 +326,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonUtils/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChurnAnalysis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SparkProject.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/DateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="65">
+              <caret line="124" column="25" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PurchaseForecast/pom.xml">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HBaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="112">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommendation/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HdfsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="597">
+              <caret line="249" column="18" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
+              <folding>
+                <element signature="e#8071#8072#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/IdNumberUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/KafkaComUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/MD5Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SentimentAnalysis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/WebHDFSUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="28">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkHive/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/AppendContent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="140">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -152,6 +416,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -174,6 +439,7 @@
       <find>iplanIndex</find>
       <find>labelindexer</find>
       <find>intlplan</find>
+      <find>SparkContext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,19 +448,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/controller/DouBanController.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/SparkUtil.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ProjectUtil.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/DriverUtil.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala" />
-        <option value="$PROJECT_DIR$/Test/src/main/scala/demo1/DouBanRecommender.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/README.md" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/AppConf.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/uils/ComputeUtils.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala" />
-        <option value="$PROJECT_DIR$/recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/scala/Kmeans/MyKmeans1.scala" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" />
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/Svm/Svm.scala" />
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala" />
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala" />
@@ -213,35 +466,48 @@
         <option value="$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" />
         <option value="$PROJECT_DIR$/PurchaseForecast/README.md" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/PurchaseForecastDaoImpl.scala" />
-        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/SparkUtil.scala" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/util/Constant.scala" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/data/churn-bigml-80.csv" />
         <option value="$PROJECT_DIR$/ChurnAnalysis/README.md" />
-        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" />
         <option value="$PROJECT_DIR$/azkaban/bin/dataMerge.sh" />
         <option value="$PROJECT_DIR$/azkaban/bin/Demo.flow" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Test/pom.xml" />
-        <option value="$PROJECT_DIR$/commonUtils/pom.xml" />
-        <option value="$PROJECT_DIR$/ChurnAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/PurchaseForecast/pom.xml" />
         <option value="$PROJECT_DIR$/recommendation/pom.xml" />
         <option value="$PROJECT_DIR$/SentimentAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/sparkHive/pom.xml" />
         <option value="$PROJECT_DIR$/spider/pom.xml" />
+        <option value="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DriverFactory.scala" />
+        <option value="$PROJECT_DIR$/commonUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/KafkaCommonUtils.scala" />
+        <option value="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/SparkUtil.scala" />
+        <option value="$PROJECT_DIR$/azkaban/report/dim_order_opt/DimOrderOpt.sh" />
+        <option value="$PROJECT_DIR$/../leetcode/Temp/leetcode/editor/en/[1]Two Sum.java" />
+        <option value="$PROJECT_DIR$/Test/src/main/scala/demo1/DouBanRecommender.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/IpUtils.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/SparkStatCleanJob.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/SparkStatFormatJob.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/AccessConvertUtil.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/DateUtils.scala" />
+        <option value="$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/JsonParser.scala" />
+        <option value="$PROJECT_DIR$/commonUtils/src/main/java/com/jianbing/utils/HdfsUtil.java" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" />
+        <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\software\apache-maven-3.6.0-bin\m2\repository" />
-        <option name="mavenHome" value="D:/software/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="D:\share\apache-maven-3.5.4-bin\m2\repository" />
+        <option name="mavenHome" value="D:/share/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\share\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -255,11 +521,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="recommendation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ChurnAnalysis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="recommendation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ChurnAnalysis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -267,15 +533,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="950" />
+    <option name="width" value="975" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,16 +550,10 @@
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -301,15 +562,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565784119424" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/commonUtils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/share" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\DataProject\share" />
+      <recent name="D:\workspace\idea\DataProject\lib" />
+      <recent name="D:\workspace\idea\DataProject\azkaban\bin" />
+      <recent name="D:\workspace\idea\DataProject\azkaban" />
+      <recent name="D:\workspace\idea\DataProject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uils" />
@@ -318,12 +583,9 @@
       <recent name="com.repository.impl" />
       <recent name="com.demo.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\DataProject\azkaban\bin" />
-      <recent name="D:\workspace\idea\DataProject\azkaban" />
-      <recent name="D:\workspace\idea\DataProject" />
-      <recent name="D:\workspace\idea\DataProject\ChurnAnalysis" />
-      <recent name="D:\workspace\idea\DataProject\ChurnAnalysis\data" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\DataProject\bin" />
+      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,7 +600,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChurnAnalysis">
+  <component name="RunManager" selected="Application.ChurnAnalysisController">
     <configuration name="ChurnAnalysis" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.controller.ChurnAnalysis" />
       <module name="ChurnAnalysis" />
@@ -352,12 +614,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spider.mains.DataTest" />
-      <module name="spider" />
+    <configuration name="ChurnAnalysisController" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.controller.ChurnAnalysisController" />
+      <module name="ChurnAnalysis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spider.mains.*" />
+          <option name="PATTERN" value="com.demo.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,25 +627,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DouBanServiceImpl" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.service.impl.DouBanServiceImpl" />
-      <module name="recommendation" />
+    <configuration name="DateUtils" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.controller.DateUtils" />
+      <module name="ChurnAnalysis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubanRecommender" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="demo1.DoubanRecommender" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
+          <option name="PATTERN" value="com.demo.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,6 +653,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkStatCleanJob" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.controller.SparkStatCleanJob" />
+      <module name="ChurnAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="javaWeb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -413,11 +675,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChurnAnalysisController" />
+        <item itemvalue="Application.DateUtils" />
+        <item itemvalue="Application.SparkStatCleanJob" />
         <item itemvalue="Application.ChurnAnalysis" />
         <item itemvalue="Application.PurchaseForecastDaoImpl" />
-        <item itemvalue="Application.DataTest" />
-        <item itemvalue="Application.DouBanServiceImpl" />
-        <item itemvalue="Application.DoubanRecommender" />
       </list>
     </recent_temporary>
   </component>
@@ -460,6 +722,26 @@
       <workItem from="1564024796629" duration="821000" />
       <workItem from="1565181859753" duration="266000" />
       <workItem from="1565780307309" duration="3270000" />
+      <workItem from="1568182599718" duration="2542000" />
+      <workItem from="1568185236047" duration="2713000" />
+      <workItem from="1568189327609" duration="977000" />
+      <workItem from="1568190754945" duration="1218000" />
+      <workItem from="1568428432123" duration="3628000" />
+      <workItem from="1568440720986" duration="1631000" />
+      <workItem from="1568701020854" duration="1994000" />
+      <workItem from="1568861521971" duration="1934000" />
+      <workItem from="1568898678017" duration="599000" />
+      <workItem from="1569072438716" duration="366000" />
+      <workItem from="1569072837158" duration="4099000" />
+      <workItem from="1569076997512" duration="757000" />
+      <workItem from="1569391436976" duration="2401000" />
+      <workItem from="1569459130219" duration="3117000" />
+      <workItem from="1569560497493" duration="1553000" />
+      <workItem from="1569639892726" duration="2662000" />
+      <workItem from="1569642919946" duration="5541000" />
+      <workItem from="1569738030210" duration="3821000" />
+      <workItem from="1569808067226" duration="7686000" />
+      <workItem from="1570434493777" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="爬虫">
       <created>1558535675027</created>
@@ -514,7 +796,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132994000" />
+    <option name="totallyTimeSpent" value="184369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,10 +808,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.20708154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.23414305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -542,33 +823,34 @@
       <window_info id="Web" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.36666667" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.6481752" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.94452554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.8377778" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.25111112" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.83625734" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24963504" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3288889" />
       <window_info anchor="bottom" id="Console" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="bottom" id="Spring" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.18293992" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="leetcode" order="0" sideWeight="0.501462" side_tool="true" weight="0.182861" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49853802" weight="0.14777328" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3299356" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="SciView" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,307 +864,304 @@
     <MESSAGE value="工具类" />
     <option name="LAST_COMMIT_MESSAGE" value="工具类" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((ParallelCollectionRDD)userDataRDD).org$apache$spark$rdd$RDD$$doCheckpointCalled" custom="org.apache.spark.rdd.ParallelCollectionRDD" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala">
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/AccessConvertUtil.scala" />
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/DateUtils.scala" />
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/SparkStatFormatJob.scala" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DBUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="140">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DriverFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#28#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/HbaseUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/HdfsUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/JsonParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#28#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
           <folding>
             <element signature="e#29#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala">
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/KafkaCommonUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="196">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/repository/IDouBanRepository.scala">
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/MailsUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="224">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/src/main/scala/com/service/IDouBanService.scala">
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/SparkUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#21#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/demo/demo.job">
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DataUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="2884">
+          <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/example/azkaban/dim_order_opt/DimOrderOpt.job">
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/Common.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/example/azkaban/dim_order_opt/DimOrderOpt.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/example/report/logTest.job">
+    <entry file="file://$PROJECT_DIR$/doc/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/example/report/logTest.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/demo/demo.sh">
+    <entry file="file://$PROJECT_DIR$/tmp/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/bin/dataMerge.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/bin/flow.project">
+    <entry file="file://$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Svm/Svm.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/clean_data.sh">
+    <entry file="file://$PROJECT_DIR$/lib/lib-ChurnAnalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/bin/Demo.flow">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/bin/Demo.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/clean_hbase_hive_delete.flow">
+    <entry file="file://$PROJECT_DIR$/lib/lib-PurchaseForecast/src/data/jdata_shop.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/delete_path.sh">
+    <entry file="file://$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/AppConf.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/flow20.project">
+    <entry file="file://$PROJECT_DIR$/lib/lib-SentimentAnalysis/src/main/scala/utils/tokens.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/load_hbase1.sh">
+    <entry file="file://$PROJECT_DIR$/sparkHive/src/main/resources/hive-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-sparkHive/src/main/scala/demo/HiveTest.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/bin/load_hive.sh">
+    <entry file="file://$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/mains/DataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="56">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/load_hbase2.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail/load_hive.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/clean_data.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/delete_path.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/load_hbase1.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/load_hbase2.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/load_hive.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/azkaban/cat-da-dw-logdetail-azkaban/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="348">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/lib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/main/ConsumeTest.scala">
+    <entry file="file://$PROJECT_DIR$/lib/lib-algorithm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="224">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/main/FlinkTest.scala">
+    <entry file="file://$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Kmeans/MyKmeans1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/main/ProducerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/Common.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/Constants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DataUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DBUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/DriverFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/HbaseUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/HdfsUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/src/main/scala/com/jianbing/utils/JsonParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="112">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonUtils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChurnAnalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="112">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sbin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/doc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SentimentAnalysis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="65">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparkHive/pom.xml">
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HBaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="112">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HdfsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="597">
+          <caret line="249" column="18" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
+          <folding>
+            <element signature="e#8071#8072#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/pom.xml">
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/IdNumberUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="217">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PurchaseForecast/pom.xml">
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/KafkaComUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="112">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/pom.xml">
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/MD5Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="196">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/WebHDFSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/AppendContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -897,7 +1176,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -941,7 +1219,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>commonUtils</last-edited>
+          <last-edited>recommendation (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -8,16 +8,28 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Test/pom.xml" />
         <option value="$PROJECT_DIR$/webdata/javaWeb/pom.xml" />
         <option value="$PROJECT_DIR$/commonUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-ChurnAnalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-PurchaseForecast/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-recommendation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ChurnAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/DataProject/pom.xml" />
+        <option value="$PROJECT_DIR$/PurchaseForecast/pom.xml" />
+        <option value="$PROJECT_DIR$/SentimentAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/Utils/pom.xml" />
         <option value="$PROJECT_DIR$/WebData/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/recommendation/pom.xml" />
+        <option value="$PROJECT_DIR$/share/pom.xml" />
+        <option value="$PROJECT_DIR$/sparkHive/pom.xml" />
+        <option value="$PROJECT_DIR$/spider/pom.xml" />
+        <option value="$PROJECT_DIR$/utils/pom.xml" />
         <option value="$PROJECT_DIR$/webdata/pom.xml" />
       </set>
     </option>

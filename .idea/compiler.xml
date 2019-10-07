@@ -6,23 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algorithm" />
-        <module name="ChurnAnalysis" />
-        <module name="commonUtils" />
-        <module name="PurchaseForecast" />
-        <module name="recommendation" />
-        <module name="SentimentAnalysis" />
-        <module name="sparkHive" />
-        <module name="spider" />
-        <module name="Test" />
+        <module name="doc" />
+        <module name="sbin" />
+        <module name="lib-recommendation" />
+        <module name="lib-PurchaseForecast" />
+        <module name="lib" />
+        <module name="lib-algorithm" />
+        <module name="share" />
+        <module name="lib-ChurnAnalysis" />
+        <module name="bin" />
+        <module name="tmp" />
+        <module name="logs" />
+        <module name="etc" />
+        <module name="algorithm (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithm" target="1.5" />
+      <module name="algorithm (1)" target="1.5" />
+      <module name="ChurnAnalysis" target="1.5" />
       <module name="DataProject (1)" target="1.8" />
       <module name="javaWeb" target="1.8" />
+      <module name="PurchaseForecast" target="1.5" />
+      <module name="recommendation" target="1.8" />
+      <module name="SentimentAnalysis" target="1.5" />
+      <module name="sparkHive" target="1.5" />
+      <module name="spider" target="1.5" />
+      <module name="Test" target="1.5" />
+      <module name="utils" target="1.5" />
       <module name="Utils" target="1.5" />
-      <module name="WebData" target="1.5" />
       <module name="webdata" target="1.5" />
+      <module name="WebData" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
