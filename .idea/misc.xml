@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/Utils/pom.xml" />
         <option value="$PROJECT_DIR$/WebData/pom.xml" />
         <option value="$PROJECT_DIR$/algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/example/pom.xml" />
         <option value="$PROJECT_DIR$/recommendation/pom.xml" />
         <option value="$PROJECT_DIR$/share/pom.xml" />
         <option value="$PROJECT_DIR$/sparkHive/pom.xml" />

@@ -8,23 +8,15 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>sparkHive</module>
-        <module>SentimentAnalysis</module>
-        <module>algorithm</module>
-        <module>spider</module>
-        <module>PurchaseForecast</module>
-        <module>recommendation</module>
-        <module>ChurnAnalysis</module>
-        <module>commonUtils</module>
         <module>bin</module>
         <module>lib</module>
         <module>doc</module>
         <module>tmp</module>
-        <module>utils</module>
         <module>sbin</module>
         <module>etc</module>
         <module>logs</module>
         <module>share</module>
+        <module>example</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->

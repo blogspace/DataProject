@@ -26,10 +26,12 @@
       <module name="algorithm (1)" target="1.5" />
       <module name="ChurnAnalysis" target="1.5" />
       <module name="DataProject (1)" target="1.8" />
+      <module name="example" target="1.5" />
       <module name="javaWeb" target="1.8" />
       <module name="PurchaseForecast" target="1.5" />
       <module name="recommendation" target="1.8" />
       <module name="SentimentAnalysis" target="1.5" />
+      <module name="share" target="1.5" />
       <module name="sparkHive" target="1.5" />
       <module name="spider" target="1.5" />
       <module name="Test" target="1.5" />
