@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-flink/lib-flink.iml" filepath="$PROJECT_DIR$/lib/lib-flink/lib-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/lib-mllib-SentimentAnalysis.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/lib-mllib-SentimentAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/lib-mllib-algorithm.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/lib-mllib-algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/lib-mllib-churnanalysis.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/lib-mllib-churnanalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/lib-mllib-doubanrecommender.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/lib-mllib-doubanrecommender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" filepath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" filepath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" filepath="$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" filepath="$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />
       <module fileurl="file://$PROJECT_DIR$/share/share.iml" filepath="$PROJECT_DIR$/share/share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-database/share-database.iml" filepath="$PROJECT_DIR$/share/share-database/share-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-example/share-example.iml" filepath="$PROJECT_DIR$/share/share-example/share-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-example/share-example-demo/share-example-demo.iml" filepath="$PROJECT_DIR$/share/share-example/share-example-demo/share-example-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-flink/share-flink.iml" filepath="$PROJECT_DIR$/share/share-flink/share-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-hadoop/share-hadoop.iml" filepath="$PROJECT_DIR$/share/share-hadoop/share-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-hive/share-hive.iml" filepath="$PROJECT_DIR$/share/share-hive/share-hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-kafka/share-kafka.iml" filepath="$PROJECT_DIR$/share/share-kafka/share-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-spark/share-spark.iml" filepath="$PROJECT_DIR$/share/share-spark/share-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share-util/share-util.iml" filepath="$PROJECT_DIR$/share/share-util/share-util.iml" />
     </modules>
   </component>
 </project>

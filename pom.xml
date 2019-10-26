@@ -16,7 +16,6 @@
         <module>etc</module>
         <module>logs</module>
         <module>share</module>
-        <module>example</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
