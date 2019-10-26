@@ -9,24 +9,34 @@
         <module name="doc" />
         <module name="sbin" />
         <module name="logs" />
+        <module name="lib-pro-logclean" />
+        <module name="share-hive" />
         <module name="lib-PurchaseForecast" />
         <module name="lib-recommendation" />
         <module name="lib" />
         <module name="lib-algorithm" />
+        <module name="share-util" />
         <module name="share" />
-        <module name="ChurnAnalysis" />
-        <module name="PurchaseForecast" />
+        <module name="lib-flink-devicemonitor" />
+        <module name="share-kafka" />
+        <module name="share-database" />
+        <module name="share-example-demo" />
+        <module name="lib-flink-statedemo" />
         <module name="lib-ChurnAnalysis" />
+        <module name="lib-flink-sessionmonitor" />
         <module name="bin" />
+        <module name="share-hadoop" />
         <module name="tmp" />
-        <module name="algorithm" />
+        <module name="share-flink" />
         <module name="etc" />
-        <module name="recommendation" />
+        <module name="share-spark" />
         <module name="algorithm (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithm" target="1.5" />
       <module name="algorithm (1)" target="1.5" />
+      <module name="ChurnAnalysis" target="1.5" />
       <module name="DataProject (1)" target="1.8" />
       <module name="example" target="1.5" />
       <module name="javaWeb" target="1.8" />
@@ -39,21 +49,12 @@
       <module name="lib-mllib-recommendation" target="1.8" />
       <module name="lib-mllib-SentimentAnalysis" target="1.5" />
       <module name="lib-pro" target="1.5" />
-      <module name="lib-pro-logclean" target="1.8" />
       <module name="lib-spark" target="1.5" />
       <module name="lib-spider" target="1.5" />
       <module name="log" target="1.5" />
+      <module name="PurchaseForecast" target="1.5" />
+      <module name="recommendation" target="1.8" />
       <module name="SentimentAnalysis" target="1.5" />
-      <module name="share" target="1.5" />
-      <module name="share-database" target="1.5" />
-      <module name="share-example" target="1.5" />
-      <module name="share-example-demo" target="1.5" />
-      <module name="share-flink" target="1.5" />
-      <module name="share-hadoop" target="1.5" />
-      <module name="share-hive" target="1.5" />
-      <module name="share-kafka" target="1.5" />
-      <module name="share-spark" target="1.5" />
-      <module name="share-util" target="1.5" />
       <module name="sparkHive" target="1.5" />
       <module name="spider" target="1.5" />
       <module name="Test" target="1.5" />

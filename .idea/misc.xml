@@ -14,6 +14,21 @@
         <option value="$PROJECT_DIR$/lib/lib-ChurnAnalysis/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-PurchaseForecast/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-recommendation/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-database/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-example/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-flink/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-hadoop/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-hive/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-spark/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-util/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/pom.xml" />
+        <option value="$PROJECT_DIR$/share/pom.xml" />
+        <option value="$PROJECT_DIR$/tmp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -27,7 +42,6 @@
         <option value="$PROJECT_DIR$/algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/example/pom.xml" />
         <option value="$PROJECT_DIR$/recommendation/pom.xml" />
-        <option value="$PROJECT_DIR$/share/pom.xml" />
         <option value="$PROJECT_DIR$/sparkHive/pom.xml" />
         <option value="$PROJECT_DIR$/spider/pom.xml" />
         <option value="$PROJECT_DIR$/utils/pom.xml" />

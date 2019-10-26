@@ -1,7 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="211aa449-c6cc-48b3-81d2-231fefcffc65" name="Default Changelist" comment="" />
+    <list default="true" id="211aa449-c6cc-48b3-81d2-231fefcffc65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/doc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/etc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-algorithm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/FPGrowth/FPGrowth.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Kmeans/MyKmeans1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/NaiveBayes/NaiveBayesTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Svm/Svm.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/TreeDemo/TreeDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/data/churn-bigml-20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/data/churn-bigml-80.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/controller/ChurnAnalysisController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/dao/IChurnAnalysisDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/service/IChurnAnalysisService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/service/impl/ChurnAnalysisServiceImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/util/AppUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/util/Constant.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/util/DriverUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/util/SparkUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/META-INF/ChurnAnalysis.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/controller/ChurnAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/controller/ChurnAnalysisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/dao/IChurnAnalysisDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/dao/impl/ChurnAnalysisDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/service/IChurnAnalysisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/service/impl/ChurnAnalysisServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/util/AppUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/util/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/util/DriverUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-churnanalysis/target/classes/com/demo/util/SparkUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-flink/lib-flink.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/lib-mllib-algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/lib-mllib-churnanalysis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-doubanrecommender/lib-mllib-doubanrecommender.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/lib-mllib-purchaseforecast.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/lib-mllib-recommendation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/lib-mllib-SentimentAnalysis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-mllib/lib-mllib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/lib-pro-logclean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-pro/lib-pro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/data/jdata_action.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/data/jdata_comment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/data/jdata_product.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/data/jdata_shop.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/data/jdata_user.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/controller/PurchaseForecastController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/dao/IPurchaseForecastDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/dao/impl/PurchaseForecastDaoImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/service/IPurchaseForecastService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/service/impl/PurchaseForecastServiceImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/util/AppUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/util/Constant.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/util/DriverUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-purchaseforecast/src/main/scala/com/demo/util/SparkUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/controller/DouBanController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/repository/IDouBanRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/repository/impl/DouBanRepositoryImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/service/IDouBanService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/service/impl/DouBanServiceImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/AppConf.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/ComputeUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/Constants.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/DriverUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/ProjectUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/SparkUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/data/hot_movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/data/user_movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/controller/SentimentAnalysis.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/utils/commons-logging.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/utils/lucene-analyzers-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/utils/lucene-core-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/utils/paoding-analysis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/utils/tokens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spark/lib-spark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sparkhive/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sparkhive/src/main/resources/hive-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-sparkhive/src/main/scala/demo/HiveTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/lib-spider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/mains/DataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/utils/SpiderUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/target/classes/com/spider/mains/DataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-spider/target/classes/com/spider/utils/DataDownUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/hot_movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/.part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/.part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/.part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/.part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/part-00000-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/part-00001-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/part-00002-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/product/part-00003-8561877f-2269-4718-8a43-dffa8712e21b.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/.part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/.part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/.part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/.part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/part-00000-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/part-00001-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/part-00002-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/data/user/part-00003-caa4c2d9-5c94-42ef-a8e8-6bdcbedc89d1.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/model/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/result.csv/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/result.csv/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/result.csv/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/result.csv/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/data/user_movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib-test/src/main/scala/demo1/DouBanRecommender.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-database/share-database.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-example/share-example-demo/share-example-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-example/share-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-flink/share-flink.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-hadoop/share-hadoop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-hive/share-hive.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-kafka/share-kafka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-spark/share-spark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share-util/share-util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/AppendContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HBaseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HdfsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/IdNumberUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/KafkaComUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/MD5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/WebHDFSUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/main/ConsumeTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/main/FlinkTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/main/ProducerTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/Common.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/Constants.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DBUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DataUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/DriverFactory.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/HbaseUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/HdfsUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/JsonParser.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/KafkaCommonUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/MailsUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/SparkUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/src/main/scala/com/jianbing/utils/package.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/demo1/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkPartition/WebLogPartition.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/wordcount/MyWordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo1/Demo$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo1/Demo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo1/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/tmp.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spider/target/" />
     <ignored path="$PROJECT_DIR$/algorithm/target/" />
@@ -29,6 +210,19 @@
     <ignored path="$PROJECT_DIR$/logs/target/" />
     <ignored path="$PROJECT_DIR$/share/target/" />
     <ignored path="$PROJECT_DIR$/example/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-flink/lib-flink-devicemonitor/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/target/" />
+    <ignored path="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-database/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-example/share-example-demo/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-example/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-flink/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-hadoop/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-hive/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-spark/target/" />
+    <ignored path="$PROJECT_DIR$/share/share-util/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +251,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/azkaban/cat-da-dw-logdetail/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkPartition/WebLogPartition.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="179">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -88,56 +270,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbin/sbin.iml">
+        <entry file="file://$PROJECT_DIR$/share/share-database/src/main/java/com/hbase/HBaseUtil.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sbin/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/demo1/Test.scala">
+        <entry file="file://$PROJECT_DIR$/tmp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="207">
+              <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/wordcount/MyWordCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#19#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/tmp/src/main/java/Demo.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/demo1/Demo.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/lib/lib-flink/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/bin-example/fileMerge.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -178,7 +345,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/src/main/scala/TreeDemo/TreeDemo.scala" />
         <option value="$PROJECT_DIR$/algorithm/src/main/scala/FPGrowth/FPGrowth.scala" />
         <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/downloadPage.java" />
         <option value="$PROJECT_DIR$/spider/src/main/java/com/spider/utils/analyzePage.java" />
@@ -229,6 +395,7 @@
         <option value="$PROJECT_DIR$/ChurnAnalysis/src/main/scala/com.demo/controller/ChurnAnalysis.scala" />
         <option value="$PROJECT_DIR$/share/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tmp/pom.xml" />
       </list>
     </option>
   </component>
@@ -263,9 +430,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="975" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -281,11 +449,6 @@
               <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataProject" type="462c0819:PsiDirectoryNode" />
-              <item name="share" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -297,19 +460,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565784119424" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tmp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\idea\DataProject\share" />
-      <recent name="D:\workspace\idea\DataProject\lib" />
-      <recent name="D:\workspace\idea\DataProject\azkaban\bin" />
-      <recent name="D:\workspace\idea\DataProject\azkaban" />
-      <recent name="D:\workspace\idea\DataProject" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\DataProject\bin" />
+      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uils" />
@@ -318,9 +478,12 @@
       <recent name="com.repository.impl" />
       <recent name="com.demo.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\DataProject\share" />
+      <recent name="D:\workspace\idea\DataProject\tmp" />
+      <recent name="D:\workspace\idea\DataProject\lib" />
       <recent name="D:\workspace\idea\DataProject\bin" />
-      <recent name="D:\workspace\idea\DataProject\recommendation\src\main\scala" />
+      <recent name="D:\workspace\idea\DataProject\azkaban\bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,13 +499,24 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="javaWeb" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+    <configuration name="IOUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.io.IOUtils" />
+      <module name="share-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IOUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -403,7 +577,7 @@
       <workItem from="1569738030210" duration="3821000" />
       <workItem from="1569808067226" duration="7686000" />
       <workItem from="1570434493777" duration="2952000" />
-      <workItem from="1572079997057" duration="17000" />
+      <workItem from="1572079997057" duration="1455000" />
     </task>
     <task id="LOCAL-00001" summary="爬虫">
       <created>1558535675027</created>
@@ -461,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570440700217</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="工具类">
+      <created>1572080266018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572080266018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185202000" />
+    <option name="totallyTimeSpent" value="186640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,8 +659,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.23279352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.2611336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,10 +686,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.8350365" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.24963504" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.42481753" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3288889" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32846716" />
       <window_info anchor="bottom" id="Console" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="bottom" id="Spring" order="17" />
@@ -554,27 +736,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib-algorithm/src/main/scala/Svm/Svm.scala" />
-    <entry file="file://$PROJECT_DIR$/lib/lib-churnanalysis/src/main/scala/com.demo/dao/impl/ChurnAnalysisDaoImpl.scala" />
-    <entry file="file://$PROJECT_DIR$/lib/lib-purchaseforecast/src/data/jdata_shop.csv" />
-    <entry file="file://$PROJECT_DIR$/lib/lib-recommendation/src/main/scala/com/uils/AppConf.scala" />
-    <entry file="file://$PROJECT_DIR$/lib/lib-sentimentanalysis/src/main/scala/utils/tokens.java" />
-    <entry file="file://$PROJECT_DIR$/sparkHive/src/main/resources/hive-site.xml" />
-    <entry file="file://$PROJECT_DIR$/lib/lib-sparkhive/src/main/scala/demo/HiveTest.scala" />
     <entry file="file://$PROJECT_DIR$/lib/lib-spider/src/main/java/com/spider/mains/DataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -584,9 +749,6 @@
     <entry file="file://$PROJECT_DIR$/etc/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/doc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -594,9 +756,6 @@
     <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/DateUtils.java" />
     <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HBaseUtil.java" />
     <entry file="file://$PROJECT_DIR$/logs/logs.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lib.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/etc.iml">
@@ -614,13 +773,6 @@
     <entry file="file://$PROJECT_DIR$/share/src/main/java/com/jianbing/utils/HdfsUtil.java" />
     <entry file="file://$PROJECT_DIR$/tmp/tmp.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SparkProject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/azkaban/bin/dataMerge.sh">
       <provider selected="true" editor-type-id="text-editor" />
@@ -673,20 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/share/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbin/sbin.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -716,8 +854,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bin-example/fileMerge.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib-flink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/src/main/java/Demo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/share-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/share.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/share-database/src/main/java/com/hbase/HBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/doc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/bin.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="135" column="45" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/lib.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -775,7 +979,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>recommendation (1)</last-edited>
+          <last-edited>lib-mllib-algorithm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
