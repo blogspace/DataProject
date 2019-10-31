@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/lib-pro/weblog" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tmp" charset="UTF-8" />
   </component>
 </project>

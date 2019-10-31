@@ -30,6 +30,18 @@
         <option value="$PROJECT_DIR$/tmp/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-pro/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-springboot/lib-springboot-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-churnanalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-purchaseforecast/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-recommendation/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-mllib/lib-mllib-sentimentanalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-flink/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-spark/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-spider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

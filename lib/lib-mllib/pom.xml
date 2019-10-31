@@ -13,6 +13,11 @@
     <packaging>pom</packaging>
     <modules>
         <module>lib-mllib-doubanrecommender</module>
+        <module>lib-mllib-algorithm</module>
+        <module>lib-mllib-churnanalysis</module>
+        <module>lib-mllib-purchaseforecast</module>
+        <module>lib-mllib-recommendation</module>
+        <module>lib-mllib-sentimentanalysis</module>
     </modules>
 
 

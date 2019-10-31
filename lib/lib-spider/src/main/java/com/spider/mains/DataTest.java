@@ -1,7 +1,6 @@
 package com.spider.mains;
 
-import com.spider.utils.SpiderUtil;
-import org.jsoup.Connection;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

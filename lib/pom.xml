@@ -13,6 +13,12 @@
     <packaging>pom</packaging>
     <modules>
         <module>lib-springboot</module>
+        <module>lib-mllib</module>
+        <module>lib-pro</module>
+        <module>lib-spark</module>
+        <module>lib-spider</module>
+        <module>lib-springboot</module>
+
     </modules>
 
 

@@ -6,33 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="share-util" />
-        <module name="sbin" />
-        <module name="logs" />
-        <module name="lib-pro-logclean" />
-        <module name="share-hive" />
-        <module name="algorithm (1)" />
-        <module name="lib-PurchaseForecast" />
-        <module name="share-spark-src" />
-        <module name="lib-ChurnAnalysis" />
-        <module name="lib-flink-devicemonitor" />
+        <module name="share-mysql" />
         <module name="share-hadoop" />
-        <module name="share-kafka" />
-        <module name="share-spark-dst" />
-        <module name="share-example-demo" />
-        <module name="etc" />
-        <module name="bin" />
-        <module name="lib-flink-statedemo" />
-        <module name="share-hbase" />
-        <module name="doc" />
-        <module name="lib-pro-weblog" />
-        <module name="tmp" />
         <module name="share-flink" />
         <module name="lib-recommendation" />
-        <module name="lib-springboot" />
-        <module name="share-mysql" />
+        <module name="lib-mllib-recommendation" />
+        <module name="lib-flink-statedemo" />
+        <module name="bin" />
+        <module name="lib-ChurnAnalysis" />
+        <module name="share-hbase" />
+        <module name="lib-mllib-doubanrecommender" />
+        <module name="share-kafka" />
+        <module name="algorithm (1)" />
+        <module name="lib-springboot-mysql" />
+        <module name="lib-PurchaseForecast" />
+        <module name="share-util" />
+        <module name="share-example-demo" />
+        <module name="lib-mllib-algorithm" />
+        <module name="lib-spider" />
+        <module name="share-spark-dst" />
         <module name="lib-flink-sessionmonitor" />
+        <module name="lib-springboot-properties" />
+        <module name="etc" />
+        <module name="sbin" />
+        <module name="lib-springboot-hbase" />
+        <module name="share-hive" />
+        <module name="doc" />
+        <module name="share-spark-src" />
+        <module name="lib-flink-devicemonitor" />
+        <module name="lib-pro-logclean" />
+        <module name="lib-springboot" />
+        <module name="tmp" />
+        <module name="lib-mllib-SentimentAnalysis" />
+        <module name="lib-pro-weblog" />
+        <module name="lib-mllib-purchaseforecast" />
+        <module name="lib-mllib-churnanalysis" />
+        <module name="logs" />
         <module name="lib-algorithm" />
+        <module name="lib-spark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,16 +53,6 @@
       <module name="DataProject (1)" target="1.8" />
       <module name="example" target="1.5" />
       <module name="javaWeb" target="1.8" />
-      <module name="lib-flink" target="1.5" />
-      <module name="lib-mllib" target="1.5" />
-      <module name="lib-mllib-algorithm" target="1.5" />
-      <module name="lib-mllib-churnanalysis" target="1.5" />
-      <module name="lib-mllib-doubanrecommender" target="1.5" />
-      <module name="lib-mllib-purchaseforecast" target="1.5" />
-      <module name="lib-mllib-recommendation" target="1.8" />
-      <module name="lib-mllib-SentimentAnalysis" target="1.5" />
-      <module name="lib-spark" target="1.5" />
-      <module name="lib-spider" target="1.5" />
       <module name="log" target="1.5" />
       <module name="PurchaseForecast" target="1.5" />
       <module name="recommendation" target="1.8" />
@@ -62,7 +63,6 @@
       <module name="share-spark-mysql" target="1.5" />
       <module name="share-spark-src" target="1.5" />
       <module name="sparkHive" target="1.5" />
-      <module name="spider" target="1.5" />
       <module name="Test" target="1.5" />
       <module name="utils" target="1.5" />
       <module name="Utils" target="1.5" />
@@ -75,6 +75,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="javaWeb" options="-parameters" />
       <module name="lib-pro-weblog" options="-parameters" />
+      <module name="lib-springboot-hbase" options="-parameters" />
+      <module name="lib-springboot-mysql" options="-parameters" />
+      <module name="lib-springboot-properties" options="-parameters" />
       <module name="weblog" options="-parameters" />
     </option>
   </component>

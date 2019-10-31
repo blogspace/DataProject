@@ -14,6 +14,13 @@
     <modules>
         <module>share-mysql</module>
         <module>share-hbase</module>
+        <module>share-flink</module>
+        <module>share-hadoop</module>
+        <module>share-hive</module>
+        <module>share-kafka</module>
+        <module>share-spark</module>
+        <module>share-util</module>
+        <module>share-example</module>
     </modules>
 
 
