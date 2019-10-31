@@ -1,5 +1,12 @@
 package com.service
 
+import com.KafkaUtil
+import com.typesafe.config.{Config, ConfigFactory}
+import com.util.{Constants, OffsetManager}
+import org.apache.kafka.common.serialization.StringDeserializer
+import org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe
+import org.apache.spark.streaming.kafka010.{HasOffsetRanges, KafkaUtils}
+import org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -35,9 +42,19 @@ object ConsumeTest {
     //        JsonUtils.jsonParser(json, schema)
     //      }).foreach(println)
     //    })
-//    val srcData = KafkaUtil.consumesData(ssc, Constants.servers, Constants.topic)
-//    srcData.foreachRDD(rdd=>rdd.foreach(println))
+    // val config: Config = ConfigFactory.load()
+    //165573  OffsetRange(topic: 'logTopic', partition: 0, range: [192445 -> 192778])
+    val srcData = KafkaUtil.consumes(ssc, Constants.servers, Constants.topic)
+    // println(config.getString("kafka.metadata.broker.list"))
+    srcData.foreachRDD(rdd => rdd.foreach(println))
+    consumes(ssc, Constants.servers, Constants.topic).foreachRDD(rdd => {
+      val rddOffset = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+      rddOffset.foreach(println(_))
+      OffsetManager.saveCurrentBatchOffset("", rddOffset)
+    })
     ssc.start()
     ssc.awaitTermination()
   }
+
+
 }

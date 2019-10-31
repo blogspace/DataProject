@@ -18,7 +18,6 @@
         <option value="$PROJECT_DIR$/lib/lib-flink/lib-flink-sessionmonitor/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-flink/lib-flink-statedemo/pom.xml" />
         <option value="$PROJECT_DIR$/lib/lib-pro/lib-pro-logclean/pom.xml" />
-        <option value="$PROJECT_DIR$/share/share-database/pom.xml" />
         <option value="$PROJECT_DIR$/share/share-example/pom.xml" />
         <option value="$PROJECT_DIR$/share/share-flink/pom.xml" />
         <option value="$PROJECT_DIR$/share/share-hadoop/pom.xml" />
@@ -29,6 +28,8 @@
         <option value="$PROJECT_DIR$/lib/pom.xml" />
         <option value="$PROJECT_DIR$/share/pom.xml" />
         <option value="$PROJECT_DIR$/tmp/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-pro/lib-pro-weblog/pom.xml" />
+        <option value="$PROJECT_DIR$/lib/lib-pro/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -42,6 +43,10 @@
         <option value="$PROJECT_DIR$/algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/example/pom.xml" />
         <option value="$PROJECT_DIR$/recommendation/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-spark/share-spark-dst/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-spark/share-spark-hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-spark/share-spark-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/share/share-spark/share-spark-src/pom.xml" />
         <option value="$PROJECT_DIR$/sparkHive/pom.xml" />
         <option value="$PROJECT_DIR$/spider/pom.xml" />
         <option value="$PROJECT_DIR$/utils/pom.xml" />

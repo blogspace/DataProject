@@ -9,7 +9,6 @@ import java.util.Properties;
  */
 public class Configuration {
     private static Properties prop = new Properties();
-
     static {
         try {
             InputStream in = Configuration.class.getClassLoader().getResourceAsStream("my.properties");

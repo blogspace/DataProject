@@ -1,5 +1,7 @@
 package com.service
 
+import java.util.Properties
+
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 
@@ -35,6 +37,7 @@ object SparkUtil {
       })
     })
   }
+
   /**
     * @fucntion join操作
     * @param line
@@ -61,8 +64,8 @@ object SparkUtil {
     * @param x
     * @return
     */
-  def nullValue(line:String)={
-    line.replaceAll("null","").replaceAll("NULL","")
+  def nullValue(line: String) = {
+    line.replaceAll("null", "").replaceAll("NULL", "")
   }
 
   /**
@@ -84,8 +87,16 @@ object SparkUtil {
     if (date.equals("null")) "2300-01-01" else date
   }
 
-
-
+  /**
+    *
+    * @return
+    */
+  def properties(): Properties = {
+    val props = new Properties()
+    val in = this.getClass.getClassLoader.getResourceAsStream("my.properties")
+    props.load(in)
+    props
+  }
 
 
 }

@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>share-spark</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>share-spark-src</module>
+        <module>share-spark-dst</module>
+        <module>share-spark-mysql</module>
+        <module>share-spark-hbase</module>
+    </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
         <dependency>

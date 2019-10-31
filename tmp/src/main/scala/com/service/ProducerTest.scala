@@ -1,6 +1,8 @@
 package com.service
 
 
+import com.KafkaUtil
+import com.util.Constants
 import org.apache.spark.{SparkConf, SparkContext}
 
 object ProducerTest {
@@ -10,7 +12,7 @@ object ProducerTest {
     sc.setLogLevel("error")
     val data = sc.textFile("D:\\admin\\Desktop\\log")
     //data.foreach(println)
-    //KafkaUtil.produceData(data,Constants.servers,Constants.topic)
+    KafkaUtil.produces(data,Constants.servers,Constants.topic)
     sc.stop()
   }
 

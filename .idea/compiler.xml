@@ -6,31 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="doc" />
+        <module name="share-util" />
         <module name="sbin" />
         <module name="logs" />
         <module name="lib-pro-logclean" />
         <module name="share-hive" />
+        <module name="algorithm (1)" />
         <module name="lib-PurchaseForecast" />
-        <module name="lib-recommendation" />
-        <module name="lib" />
-        <module name="lib-algorithm" />
-        <module name="share-util" />
-        <module name="share" />
-        <module name="lib-flink-devicemonitor" />
-        <module name="share-kafka" />
-        <module name="share-database" />
-        <module name="share-example-demo" />
-        <module name="lib-flink-statedemo" />
+        <module name="share-spark-src" />
         <module name="lib-ChurnAnalysis" />
-        <module name="lib-flink-sessionmonitor" />
-        <module name="bin" />
+        <module name="lib-flink-devicemonitor" />
         <module name="share-hadoop" />
+        <module name="share-kafka" />
+        <module name="share-spark-dst" />
+        <module name="share-example-demo" />
+        <module name="etc" />
+        <module name="bin" />
+        <module name="lib-flink-statedemo" />
+        <module name="share-hbase" />
+        <module name="doc" />
+        <module name="lib-pro-weblog" />
         <module name="tmp" />
         <module name="share-flink" />
-        <module name="etc" />
-        <module name="share-spark" />
-        <module name="algorithm (1)" />
+        <module name="lib-recommendation" />
+        <module name="lib-springboot" />
+        <module name="share-mysql" />
+        <module name="lib-flink-sessionmonitor" />
+        <module name="lib-algorithm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,13 +50,17 @@
       <module name="lib-mllib-purchaseforecast" target="1.5" />
       <module name="lib-mllib-recommendation" target="1.8" />
       <module name="lib-mllib-SentimentAnalysis" target="1.5" />
-      <module name="lib-pro" target="1.5" />
       <module name="lib-spark" target="1.5" />
       <module name="lib-spider" target="1.5" />
       <module name="log" target="1.5" />
       <module name="PurchaseForecast" target="1.5" />
       <module name="recommendation" target="1.8" />
       <module name="SentimentAnalysis" target="1.5" />
+      <module name="share-database" target="1.5" />
+      <module name="share-spark-dst" target="1.5" />
+      <module name="share-spark-hbase" target="1.5" />
+      <module name="share-spark-mysql" target="1.5" />
+      <module name="share-spark-src" target="1.5" />
       <module name="sparkHive" target="1.5" />
       <module name="spider" target="1.5" />
       <module name="Test" target="1.5" />
@@ -62,11 +68,14 @@
       <module name="Utils" target="1.5" />
       <module name="webdata" target="1.5" />
       <module name="WebData" target="1.5" />
+      <module name="weblog" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="javaWeb" options="-parameters" />
+      <module name="lib-pro-weblog" options="-parameters" />
+      <module name="weblog" options="-parameters" />
     </option>
   </component>
 </project>
